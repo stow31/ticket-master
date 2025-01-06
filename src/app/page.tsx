@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AmplifyTest from "./components/AmplifyTest";
 
 export default function Home() {
   return (
@@ -47,6 +48,13 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+
+        <div className="p-4">
+          <h1>Amplify UI Test</h1>
+          <div className="mt-4">
+            <AmplifyTest />
+          </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
